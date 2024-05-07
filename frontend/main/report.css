@@ -1,0 +1,61 @@
+/* .container{
+    height: 100vh;
+    background-color: rgba(32, 28, 23, 0.877);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px solid rgb(212, 19, 19);
+}
+#form-container{
+    border:10px solid rgb(254, 128, 2);
+    border-radius: 10%;
+    border-left-color: rgb(0, 106, 255);
+    border-right-color: rgb(255, 0, 0);
+    border-bottom-color: rgba(153, 255, 0, 0.908);
+    
+}
+.form-container{
+    border-radius: 4px solid rgb(72, 70, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 246, 206);
+    height: 80%;
+    width: 60%;
+   
+}
+form{
+    justify-content: center;
+    align-items: center;
+     font-size: 20px; 
+}
+label{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.location{
+    margin-left: 62px;
+}
+.browser{
+    margin-left: 69px;
+}
+.need{
+    margin-left: 46px;
+}
+.file{
+    margin-right: 69px;
+} */
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+ gmp-map {
+    height: 100%;
+  }
+  
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }

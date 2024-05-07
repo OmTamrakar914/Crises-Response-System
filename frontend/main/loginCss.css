@@ -1,0 +1,176 @@
+/* .main_frame{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(245, 240, 240);
+    display: flex;
+  align-items: center;
+    
+}
+.inner-div{
+  height: 50vh;
+  width: 50%;
+  background-color: rgb(85, 247, 233);
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 50px;
+  
+}
+.detail{
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+      
+}
+
+.input {
+  box-sizing: border-box;
+  border:2px solid rgb(54, 114, 246);
+  border-radius: 8px;
+  height: 2rem;
+  margin-left:45px ;
+}
+
+.cred{
+  font-size:20px;
+  margin: auto;
+}
+#forget{
+  margin-left: 130px;
+}
+
+#create{
+  margin-left: 130px;
+}
+#or{
+  margin-left: 10px;
+} */
+body {font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+  width: 100%;}
+  
+ 
+  
+   .main-container{
+    float: right;
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0); 
+   
+   
+  }  
+  /* .inner-box{
+    background-color: rgb(222, 231, 233);
+    border-radius: 15px;
+    height: 60%;
+    width: 50%;
+    justify-content: center;
+   
+  } */ 
+  
+  form {
+  padding: 40px 40px;
+  border-radius: 30px;
+  background-color: rgba(74, 7, 7, 0.233);
+  border: 5px solid  rgb(255, 96, 71);
+  width: 40%; 
+  line-height: 30px;
+ 
+    
+}
+form{
+  box-shadow:0px 0px 20px #a9a029 ;
+}
+
+
+  .cred{
+    color: rgb(255, 255, 255);
+  }
+  
+  .cred-box {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(53, 102, 181, 0.5);;
+    border-radius:8px;
+    box-sizing: border-box;
+  }
+  .login{
+    color: white;
+    height: 40px;
+    width: 100%;
+    margin: 22px 0px 15px;
+    color: #0b0b0b;
+    background-color: #ea9c26;
+    border-radius:10px;
+    border: none;
+  
+  }
+
+  .remfor{
+    margin-top: 10px;
+  }
+  
+  .createbtn {
+    color: white;
+    width: auto;
+    margin: 40px 0px 0px;
+    padding: 10px 18px;
+    font-weight: 700;
+    border-radius:8px;
+    background-color: #054bfecf;
+    cursor: pointer;
+    border: none;
+    margin-left: 30px;
+    
+  }
+  
+  .createbtn:hover {
+    opacity: 0.8;
+    color: rgb(248, 246, 200);
+  }
+  .forget{
+    color: rgb(200, 220, 236);
+    float:right;
+   
+  }
+  
+ 
+  .me{
+    color: white;
+    font-weight: 700;
+    font-size: large;
+  }
+  .forget{
+    color: #ffffff;
+    float: right;
+    text-decoration: none;
+   
+  }
+  .button {
+   
+    margin:20px 0px  0px;
+    
+  }
+  .button b{
+    color: white;
+    margin: 5px;
+    font-weight: 600;
+  }
+  
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .createtn {
+       width: 100%;
+       color: #f44336;
+    }
+  }
